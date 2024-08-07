@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="styelsheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0"
+    />
+    <link rel="short icon" href="images/favicon.svg" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>wealthome</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup_container">
+        <div class="text">
+          sign up <br />
+          <span>now!</span>
+        </div>
+        <form action="index.html" class="signup_form" id="sign_up_form">
+          <h2>sign up</h2>
+          <p id="error"></p>
+          <div>
+            <label for=""><i class="fa-solid fa-user"></i></label>
+            <input id="name" type="text" placeholder="Enter Name" />
+          </div>
+          <div>
+            <label for=""><i class="fa-solid fa-envelope"></i></label>
+            <input id="email" type="email" placeholder="Enter Email" />
+          </div>
+          <div>
+            <label for=""><i class="fa-solid fa-lock"></i></label>
+            <input id="password" type="password" placeholder="Enter password" />
+          </div>
+          <div class="check_box">
+            <div class="left-side">
+              <input type="checkbox" />
+              <span>remember me</span>
+            </div>
+            <div>forgot password?</div>
+          </div>
+          <input type="submit" value="sign up" id="sign_up" />
+          <div>Already Have An Account?</div>
+          <a href="" id="login">login here</a>
+        </form>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
